@@ -1,3 +1,7 @@
 [build]
 publish = "_site"
 command = "./stackbit-build.sh"
+
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
